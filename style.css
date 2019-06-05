@@ -1,21 +1,25 @@
+html{
+    margin: 0px;
+}
 body{
     font-family:"Yantramanav",sans-serif;
     font-weight: bold;
     text-align: center;
     margin: 0px;
+    font-size: 45px;
 }
 
 main{
-    min-width: 500px;
 }
 
 header{
-    margin: 2em 0em 4em 0em;
+    padding: 5em 0;
+    background-color: rgb(124, 146, 186);
 }
 
 h1{
     font-weight:900;
-    font-size: 5em;
+    font-size: 7em;
     margin: 0px;
 }
 
@@ -26,25 +30,22 @@ h2{
 
 table{
     width: 100%;
-    min-width: 320px;
-    margin: 0px;
-    border:1px solid black;
-    border-spacing: 0;
-    border-collapse: collapse;
-}
-
-td{
-    border:1px solid gray;
-
+    padding: ;
+    background-color: rgb(134, 197, 224);
 }
 
 th{
     font-weight: 700;
-    height: 3em;
+}
+
+th, td{
+    border-bottom: 1px solid black;
 }
 
 td{
     font-weight: 300;
-    height: 3em;
+}
 
+tr{
+    height:3em;
 }

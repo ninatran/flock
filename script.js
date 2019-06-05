@@ -37,13 +37,7 @@ $.get('src/ledger.csv',{},function(content){
               }
               createCell(0);
               createCell(1);
-              createCell(2);
-              //Style Additional notes column
-              notesColumn = document.querySelectorAll('tr td:nth-child(3)');
-              notesColumn.forEach(function(cell){
-                  cell.style.textAlign="left";
-                  cell.style.padding="0px 10px";
-              });
+              //createCell(2);
           }
 
       //TESTER
